@@ -66,9 +66,6 @@ it.only(Offers", async function () {
   });
 ```
 
-### Tools Used
-Manual review, Hardhat test
-
 ### Recommended Mitigation Steps
 Add one more condition when the user create a new offer.
 
@@ -80,13 +77,6 @@ require(owner != address(0) && recipient != address, "Zero address for owner and
 
 ### Impact
 Modifier can_offer is incorrect because it checks if `!isClosed()` is true [598](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/RubiconMarket.sol#L598). The method `isClosed()` always return false and the condition is passed every time. Reading the comment above the modifier [596](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/RubiconMarket.sol#L596) I think that the developers wants to stop market when its need and no new offers to be allowed for creating.
-
-### Proof of Concept
-I do not have written PoC but i think the problem is visible.
-[596-600](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/RubiconMarket.sol#L596-L600)
-
-### Tools Used
-Mannual review
 
 ### Recommended Mitigation Steps
 Instead of calling of `isClosed()` method use `stop()` method which fit more with this condition.
@@ -112,9 +102,6 @@ function stop(bool isStopped) external auth {
 ### Impact
 During the migration of the USDT pool can be reached some problem with approving of the tokens [53](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/V2Migrator.sol#L53). Some tokens (like USDT) have approval race condition protection, which requires the allowance before a call to approve to already be either 0 or UINT_MAX. If this is not the case, the call reverts. I mark this issues as High because Rubicon protocol has already USDT pool witch locked money in him.
 
-### Tools Used
-Manual review
-
 ### Recommended Mitigation Steps
 Set allowance to zero before approve.
 
@@ -123,7 +110,7 @@ Set allowance to zero before approve.
 ## [L-01] notifyRewardAmount() will revert if rewardsDuration[token] is zero
 If `rewardsDuration[token]` is equal to zero during the calculation of rewardRatio in `notifyRewardAmount(...)` will revert.
 [233](https://github.com/code-423n4/2023-04-rubicon/blob/main/contracts/periphery/BathBuddy.sol#L233)
-Mitigation steps:
+### Mitigation steps:ß
 Add additional check for that
 
 ```
