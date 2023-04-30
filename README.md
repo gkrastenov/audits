@@ -6,8 +6,6 @@ This repository represents my portfolio of smart contract security work.
 
 - [Rubicon - Code4rena](./reports/Rubicon-code4rena-security-review.md)
 
-## Other
-
 ## Contacts
 
 I am available for smart contract security consulting. Reach out to me on:
