@@ -5,6 +5,8 @@ This repository represents my portfolio of smart contract security work.
 ## Contests
 
 - [Rubicon - Code4rena](./reports/Rubicon-code4rena-security-review.md)
+- [Ajna - Code4rena](./reports/Ajna-code4rena-security-review.md)
+
 
 ## Contacts
 
