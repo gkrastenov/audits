@@ -14,7 +14,7 @@ This repository represents my portfolio of smart contract security work.
 | Protocol                                       | Date       | Type                | Findings             | Report                                                  |
 | :--------------------------------------------: | :---------:| :-----------------: | :------------------: | :------------------------------------------------------:|
 | [Rubicon](https://twitter.com/rubicondefi)     |  April 2023|  Open order book    |  1 H, 1 M                 | [Source](./reports/Rubicon-code4rena-security-review.md)|
-| [Ajna](https://www.ajna.finance/)              |  May 2023  |  Lending, DAO       |  7 Low               | [Source](./reports/Ajna-code4rena-security-review)|                                                   |
+| [Ajna](https://www.ajna.finance/)              |  May 2023  |  Lending, DAO       |  7 Low               | [Source](./reports/Ajna-code4rena-security-review.md)|                                                   |
 
 
 ## Contacts
