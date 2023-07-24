@@ -45,6 +45,17 @@ A smart contract security review can never verify the complete absence of vulner
 | **nSLOC (415)** | 
 
 
+### Issues found
+
+| Severity      | Count | Fixed | Acknowledged |
+| :------------ | ----: | ----: |  ---------:  |
+| High risk     |     0 |     - |            - |
+| Medium risk   |     2 |     - |            - |
+| Low risk      |     2 |     - |            - |
+| Informational |     7 |     - |            - |
+| Gas           |     4 |     - |            - |
+| **Total**         |   **15** |   **-** |            **-** |
+
 # Findings
 
 |ID  |  Title                                                                                | Severity      |
@@ -60,10 +71,9 @@ A smart contract security review can never verify the complete absence of vulner
 |I-5  | Add NatSpec documentation                                                           | Informational |
 |I-6  | Missing non-zero address checks                                                     | Informational |
 |I-7  | Import declarations should import specific identifiers                              | Informational |
-|I-8  | Naming collision in WithFees contract                                               | Informational |
 |G-1|  Use custom error instead of require statement                                        | Gas |
 |G-2|  ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow  | Gas |
-|G-3|   Use constant for REWARDS_PRECISION                                                  | Gas |
+|G-3|  Use constant for REWARDS_PRECISION                                                  | Gas |
 |G-4|  Use extnernal modifier instead of public                                             | Gas |
 
 # Medium
