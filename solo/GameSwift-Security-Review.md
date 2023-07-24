@@ -214,18 +214,8 @@ Using import declarations of the form `import {<identifier_name>} from "some/fil
 ## [G-01] Use custom error instead of require statement 
 Use custom errors instead of require statements. It saves more gas.
 
-Instances:
-Staking: [51](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L51), [54](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L54), [114](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L114), [132-133](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L132-L133), [170-171](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L170-L171), [179](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L179), [182](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L182), [217](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L217)
-
-Airdrop: [71](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/airdrop/Airdrop.sol#L71), [76](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/airdrop/Airdrop.sol#L76), [78](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/airdrop/Airdrop.sol#L78)
-
 ## [G-02] ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow
 The unchecked keyword is new in solidity version 0.8.0, so this only applies to that version or higher, which these instances are. This saves 30-40 gas [per loop](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc#the-increment-in-for-loop-post-condition-can-be-made-unchecked)
-
-Instances:
-Staking: [166](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L166), [208](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/staking/Staking.sol#L208)
-
-Airdrop: [131](https://github.com/GameSwift/gs-evm-contracts/blob/8d6c99af4b7864043234efef63f5bdf968045317/contracts/airdrop/Airdrop.sol#L131)
 
 ## [G-03] Use constant for REWARDS_PRECISION
 Use a constant variable for REWARDS_PRECISION instead of `1e12`. Constant variables are saved in bytecode and help save gas.
