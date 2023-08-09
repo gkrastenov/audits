@@ -334,7 +334,7 @@ Fixed.
 ### Impact 
 ChainId is missed in EIP712 Type hash in `PolisManager` and `PaymentReceiver` contracts.
 
-```
+```solidity
     function domainSeperator() internal view returns (bytes32) {
         return
             keccak256(
@@ -366,7 +366,7 @@ Fixed.
 ### Impact 
 `withdrawTokensToClaimFromRounds` function will not work as expected because every time `roundsLength` is equal to 0 and the for loop will not cycle through all the given rounds.
 
-```
+```solidity
     function withdrawTokensToClaimFromRounds(uint256[] memory rounds) external {
         uint256 roundsLength = 0; //@audit M: roundsLength = rounds.length
         for (uint roundIndex = 0; roundIndex < roundsLength; ++roundIndex) {
@@ -399,7 +399,7 @@ Fixed.
 ### Impact 
 It is possible to double-approve the same address in the `lockApprove()` function of the `Polis` contract. This behavior is not expected, and the `LockApproval` event with the same `owner`, `to`, and `tokenId` will be emitted again.
 
-```
+```solidity
     function lockApprove(
         address _to,
         uint256 _tokenId
