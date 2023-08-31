@@ -43,8 +43,7 @@ A smart contract security review can never verify the complete absence of vulner
 ### Overview
 |               |                                                                                                                                             |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| Project Name  
-| GameSwift |
+| Project Name  | GameSwift 
 | Review Commit hash   | 9010b162adfae5f78ff913047dfe9fd223934deb |
 | Fixes Review Commit hash   | 4662eec97cfe065f3b857a8109f6b5aa75cbdf11 |
 
