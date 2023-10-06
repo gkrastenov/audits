@@ -60,21 +60,21 @@ A smart contract security review can never verify the complete absence of vulner
 
 |ID  |  Title                                                                                | Severity      |
 |:---| :------------------------------------------------------------------------------------| :------------ |
-|M-1 | Unnecessary external call in checkEthFeeAndRefundDust modifier                       | Medium        |
-|M-2 | It is possible to create UnbondInfo with _amount == 0                                | Medium        |
-|L-1 | The nonReentrant modifier should occur before all other modifiers                    | Low           |
-|L-2 | Use msg.sender instead of owner()                                                    | Low           |
-|I-1 | Redundant if condition                                                               | Informational |
-|I-2 | Add 100% test coverage                                                               | Informational |
-|I-3 | Missing non-bytes32(0) checks                                                        | Informational |
-|I-4  | Use safeTransfer instead of transfer                                                | Informational |
-|I-5  | Add NatSpec documentation                                                           | Informational |
-|I-6  | Missing non-zero address checks                                                     | Informational |
-|I-7  | Import declarations should import specific identifiers                              | Informational |
-|G-1|  Use custom error instead of require statement                                        | Gas |
-|G-2|  ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow  | Gas |
-|G-3|  Use constant for REWARDS_PRECISION                                                  | Gas |
-|G-4|  Use extnernal modifier instead of public                                             | Gas |
+|M-01 | Unnecessary external call in checkEthFeeAndRefundDust modifier                       | Medium        |
+|M-02 | It is possible to create UnbondInfo with _amount == 0                                | Medium        |
+|L-01 | The nonReentrant modifier should occur before all other modifiers                    | Low           |
+|L-02 | Use msg.sender instead of owner()                                                    | Low           |
+|I-01 | Redundant if condition                                                               | Informational |
+|I-02 | Add 100% test coverage                                                               | Informational |
+|I-03 | Missing non-bytes32(0) checks                                                        | Informational |
+|I-04  | Use safeTransfer instead of transfer                                                | Informational |
+|I-05  | Add NatSpec documentation                                                           | Informational |
+|I-06  | Missing non-zero address checks                                                     | Informational |
+|I-07  | Import declarations should import specific identifiers                              | Informational |
+|G-01|  Use custom error instead of require statement                                        | Gas |
+|G-02|  ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow  | Gas |
+|G-03|  Use constant for REWARDS_PRECISION                                                  | Gas |
+|G-04|  Use extnernal modifier instead of public                                             | Gas |
 
 # Medium
 

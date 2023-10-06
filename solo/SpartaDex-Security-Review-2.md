@@ -63,21 +63,21 @@ A smart contract security review can never verify the complete absence of vulner
 
 # Findings
 |ID  |  Title                                                                                | Severity      |
-|:---| :------------------------------------------------------------------------------------| :------------ |
-|C-1 | The `claim()` function will always revert                                            | Critical      |
-|C-2 | The `currentImplementation()` function will always revert                            | Critical      |
-|C-3 | Users can double their StakedSparta tokens                                           | Critical      |
-|H-1 | Only the staked amount is moved without the reward                                   | High          |
-|I-1 | Add an additional check: If `claimableAmount > 0`                                    | Informational |
-|I-2 | The deactivate function is redundant                                                 | Informational |
-|I-3 | Use external modifier instead of public                                              | Informational |
-|I-4 | In the RewardTaken event, toTransfer should be used instead of reward                | Informational |
-|I-5 | Emit event after changing the `baseTokenURI/contractURI`                             | Informational |
-|I-6 | In the event MovedToNextImplementation, `total` should be used instead of` balance ` | Informational |
+|:---| :-------------------------------------------------------------------------------------| :------------ |
+|C-01 | The `claim()` function will always revert                                            | Critical      |
+|C-02 | The `currentImplementation()` function will always revert                            | Critical      |
+|C-03 | Users can double their StakedSparta tokens                                           | Critical      |
+|H-01 | Only the staked amount is moved without the reward                                   | High          |
+|I-01 | Add an additional check: If `claimableAmount > 0`                                    | Informational |
+|I-02 | The deactivate function is redundant                                                 | Informational |
+|I-03 | Use external modifier instead of public                                              | Informational |
+|I-04 | In the RewardTaken event, toTransfer should be used instead of reward                | Informational |
+|I-05 | Emit event after changing the `baseTokenURI/contractURI`                             | Informational |
+|I-06 | In the event MovedToNextImplementation, `total` should be used instead of` balance ` | Informational |
 
 # Critical
 ## [C-01] The claim() function will always revert
-When the `claim()` function is called, a new Sparta staking address is retrieved from the `Repository` contract. The argument `"SPARTA_STAKING"` is incorrectly used in the `getContract()` function; it should be the `keccak256` hash of `"SPARTA_STAKING"`. The `getContract()` function will return a`ddress(0)` and the function will revert when trying to stake the claimed amount.
+When the `claim()` function is called, a new Sparta staking address is retrieved from the `Repository` contract. The argument `"SPARTA_STAKING"` is incorrectly used in the `getContract()` function; it should be the `keccak256` hash of `"SPARTA_STAKING"`. The `getContract()` function will return `address(0)` and the function will revert when trying to stake the claimed amount.
 
 ### Impact 
 
@@ -104,7 +104,7 @@ Fixed.
 The idea behind `currentImplementation()` is to allow users to move tokens from one iteration to the next without a unstaking period and fees. The `getContract()` function will return the last iteration from the `Repository` contract. The problem arises in the if condition because `spartaStakingAddress == address(spartaStakingAddress)` is always true and the `currentImplementation()` function will always revert when called. Users will not be able to move their tokens.
 
 
-```
+```solidity
 function currentImplementation() public view returns (ISpartaStaking) {
         address spartaStakingAddress = contractsRepository.getContract(
             SPARTA_STAKING_CONTRACT_ID

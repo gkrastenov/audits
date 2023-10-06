@@ -87,31 +87,31 @@ A smart contract security review can never verify the complete absence of vulner
 
 |ID  |  Title                                                                                | Severity      |
 |:---| :------------------------------------------------------------------------------------| :------------ |
-|H-1 | Token can be stucked in the staking contract                                         | High          |
-|H-2 | Wrong implementation of swapTokensForExactTokens                                     | High          |
-|M-1 | weiRewardRatioPerTokenStored() will not work most of the time                        | Medium        |
-|M-2 | The owner can not lock tokens without granting approval rights to another user       | Medium        |
-|M-3 | Signature replay attack is possible                                                  | Medium        |
-|M-4 | ChainId is missed in EIP712 Type hash                                                | Medium        |
-|M-5 | withdrawTokensToClaimFromRounds will not work as expected                            | Medium        |
-|M-6 | Use safeTransferFrom() instead of transferFrom()                                   | Medium        |
-|L-1 | Double approving to same address is possible                                         | Low           |
-|L-2 | Hard-coded chainId in DOMAIN_SEPARATOR                                               | Low           |
-|L-3 | The tokenId is not checked for existence during the buying of gems                  | Low           |
-|L-4 | The wallet can be equal to address(0) during the buying of gems                     | Low           |
-|L-5 | Typos in EIP712Domain separator and UPGRADE_TYPE                                    | Low           |
-|L-6 | Transferring ownership in the constructor is unnecessary                            | Low           |
-|L-7 | Upgrading of not existing token is possible                                         | Low           |
-|L-8 | UPGRADE_TYPE and BUY_TYPE contain unnecessary parametars                            | Low           |
-|I-1 | Missed license                                                                      | Informational |
-|I-2 | Redundant events or errors                                                          | Informational |
-|I-3 | Library ECDSA is never used in Polis contract                                        | Informational |
-|I-4  | Argument in modifier is redundant                                                   | Informational |
-|I-5  | Approving to zero address is possible                                               | Informational |
-|I-6  | updateReward modifier is unnecessary in initialize function                         | Informational |
-|I-7  | Redundant function                                                                  | Informational |
-|I-8  | Naming collision in WithFees contract                                               | Informational |
-|I-9  | Emit event in crucial places                                                        | Informational |
+|H-01 | Token can be stucked in the staking contract                                         | High          |
+|H-02 | Wrong implementation of swapTokensForExactTokens                                     | High          |
+|M-01 | weiRewardRatioPerTokenStored() will not work most of the time                        | Medium        |
+|M-02 | The owner can not lock tokens without granting approval rights to another user       | Medium        |
+|M-03 | Signature replay attack is possible                                                  | Medium        |
+|M-04 | ChainId is missed in EIP712 Type hash                                                | Medium        |
+|M-05 | withdrawTokensToClaimFromRounds will not work as expected                            | Medium        |
+|M-06 | Use safeTransferFrom() instead of transferFrom()                                   | Medium        |
+|L-01 | Double approving to same address is possible                                         | Low           |
+|L-02 | Hard-coded chainId in DOMAIN_SEPARATOR                                               | Low           |
+|L-03 | The tokenId is not checked for existence during the buying of gems                  | Low           |
+|L-04 | The wallet can be equal to address(0) during the buying of gems                     | Low           |
+|L-05 | Typos in EIP712Domain separator and UPGRADE_TYPE                                    | Low           |
+|L-06 | Transferring ownership in the constructor is unnecessary                            | Low           |
+|L-07 | Upgrading of not existing token is possible                                         | Low           |
+|L-08 | UPGRADE_TYPE and BUY_TYPE contain unnecessary parametars                            | Low           |
+|I-01 | Missed license                                                                      | Informational |
+|I-02 | Redundant events or errors                                                          | Informational |
+|I-03 | Library ECDSA is never used in Polis contract                                        | Informational |
+|I-04  | Argument in modifier is redundant                                                   | Informational |
+|I-05  | Approving to zero address is possible                                               | Informational |
+|I-06  | updateReward modifier is unnecessary in initialize function                         | Informational |
+|I-07  | Redundant function                                                                  | Informational |
+|I-08  | Naming collision in WithFees contract                                               | Informational |
+|I-09  | Emit event in crucial places                                                        | Informational |
 |I-10 | Use custom error instead of require statement                                       | Informational |
 |I-11 | Rename function setup to initialize                                                 | Informational |
 |I-12 | Modifiers should be declared before functions                                       | Informational |
@@ -121,12 +121,12 @@ A smart contract security review can never verify the complete absence of vulner
 |I-16 | Remove redundant import                                                             | Informational |
 |I-17 | Add additional checks for the variables duration and start                          | Informational |
 |I-18 | Override keyword is missed in some functions                                       | Informational |
-|G-1|  Using private rather than public for constants, saves gas                           | Gas |
-|G-2|  Constructors can be marked payable                         | Gas |
-|G-3|  ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow  | Gas |
-|G-4|  Don’t initialize variables with default value                         | Gas |
-|G-5|  Cache storage values in memory to minimize SLOADs                          | Gas |
-|G-6|  Use calldata instead of memory                        | Gas |
+|G-01|  Using private rather than public for constants, saves gas                           | Gas |
+|G-02|  Constructors can be marked payable                         | Gas |
+|G-03|  ++i/i++ should be unchecked{++i}/unchecked{i++} when it is not possible for them to overflow  | Gas |
+|G-04|  Don’t initialize variables with default value                         | Gas |
+|G-05|  Cache storage values in memory to minimize SLOADs                          | Gas |
+|G-06|  Use calldata instead of memory                        | Gas |
 
 
 
