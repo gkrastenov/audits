@@ -13,6 +13,12 @@ This repository represents my portfolio of smart contract security work.
 | 2 | [SpartaDex](https://twitter.com/Spartadex_io)         |  June 2023 |  Stakin, NFT & DEX  |  2 H, 6 M, 8 Low | [Finished](./solo/SpartaDex-Security-Review.md)   |
 | 1 | Undisclosed        |  May 2023  |  Airdrop & Vesting   |  11 H, 8 M           | Finished    |
 
+## Public Audit Contests
+
+| Contest | Description | &nbsp;&nbsp;&nbsp;Ranking&nbsp;&nbsp;&nbsp; | Platform  |
+| ------------------------------------ | ------------------------------------------------------------ | :-----------------------------------------: | :-------: |
+| Ondo Finance | Institutional-Grade Finance. On-Chain. For Everyone. |  🥈2 / 71            | Code4rena |
+
 ## Stats
 
 -  Over $10,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
