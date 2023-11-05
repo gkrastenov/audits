@@ -17,7 +17,7 @@ This repository represents my portfolio of smart contract security work.
 
 | Contest | Description | &nbsp;&nbsp;&nbsp;Ranking&nbsp;&nbsp;&nbsp; | Platform  |
 | ------------------------------------ | ------------------------------------------------------------ | :-----------------------------------------: | :-------: |
-| Ondo Finance | Institutional-Grade Finance. On-Chain. For Everyone. |  🥈2 / 71            | Code4rena |
+| [Ondo Finance](https://twitter.com/ondofinance) | Institutional-Grade Finance. On-Chain. For Everyone. |  🥈2 / 71            | Code4rena |
 
 ## Stats
 
