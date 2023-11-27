@@ -150,7 +150,9 @@ the value of `last.origin`. Consequently, the subsequent transaction involving t
 The `getDumpTax()` function will return 0 if a small duration is set up by the owner or the `feeController`. This occurs due to a precision error in the
 following calculation:
 
-`dumpTaxStartRate * (dumpTaxEndTimestamp - block.timestamp) * 1e18 / dumpTaxDurationInSeconds / 1e18; // return 2 after 40 days`
+```solidity 
+dumpTaxStartRate * (dumpTaxEndTimestamp - block.timestamp) * 1e18 / dumpTaxDurationInSeconds / 1e18; // return 2 after 40 days`
+```
 
 ## [L-02] Centralization risk
 The whole contract carries a significant centralization risk. The owner can easily scam all users by altering fees or blacklisting/whitelisting
