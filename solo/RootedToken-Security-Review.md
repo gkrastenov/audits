@@ -87,7 +87,7 @@ Some functions do not work properly with meta-transactions which can lead to los
 The functions `transfer`, `approve` and `transferFrom` will not work properly with meta-transactions. In meta-transactions, data is signed off-chain by one person and executed by another person who pays the gas fees. In this case, the original sender won't be `msg.sender`. Using of `msg.sender` directly is not the proper way of usage. The replayer who executed the transaction will be affected, even though they were not originally the signer of the transaction.
 
 ### Recommendations
-`_msgSender()` should be used instead of `msg.sender`. See OZ ERC20 contract for a reference.: link
+`_msgSender()` should be used instead of `msg.sender`.
 
 # Medium
 
@@ -102,7 +102,9 @@ Advanced protocols like Automated Market Makers (AMMs) can allow users to specif
 the transaction must be executed. Without a deadline parameter, the transaction may sit in the mempool and be executed at a much later time
 potentially resulting in a worse price for the user.
 
-`uint256[] memory amounts = router.swapExactTokensForTokens(sellAmount, 0, path, address(this), block.timestamp);`
+```solidity 
+uint256[] memory amounts = router.swapExactTokensForTokens(sellAmount, 0, path, address(this), block.timestamp);
+```
 
 ### Recommendations
 Allow for a deadline to be set by the user, such that after the deadline the transaction never takes place.
@@ -116,7 +118,9 @@ It is not possible to perform batch `transfers/transferFrom` from one user to ma
 
 The problem arises in the require statement within the `allowBalance` function,
 
-`require (last.origin != allow.origin || last.blockNumber != allow.blockNumber || last.transferFrom != allow.transferFrom, "Liquidity is locked (Please try again next block)");`
+```solidity 
+require (last.origin != allow.origin || last.blockNumber != allow.blockNumber || last.transferFrom != allow.transferFrom, "Liquidity is locked (Please try again next block)");`
+```
 
 The conditions `last.origin != allow.origin`, `last.blockNumber != allow.blockNumber` and `last.transferFrom != allow.transferFrom`
 will always evaluate to false in the second transfer or transferFrom call within a batch operation, leading to a transaction revert. Users are
@@ -129,7 +133,9 @@ Calling of `balanceOf` function easy can be blocked through front-running attack
 ### Vulnerability Details
 If the `SwapPair` contract calls the `balanceOf` function and `liquidityPairLocked[pair]` is true, then it must satisfy the following require statement:
 
-`require (last.origin != allow.origin || last.blockNumber != allow.blockNumber || last.transferFrom != allow.transferFrom);`
+```solidity 
+require (last.origin != allow.origin || last.blockNumber != allow.blockNumber || last.transferFrom != allow.transferFrom);
+```
 
 To meet this requirement, the caller must first invoke `transfer` or `transferFrom` to fulfill all conditions. However, if these two calls are not
 executed within a single transaction — for instance, if the `SwapPair` calls transfer in one transaction and then calls `balanceOf` in a separate
