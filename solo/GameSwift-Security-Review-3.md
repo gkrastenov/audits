@@ -88,10 +88,10 @@ During the creation of `UnbondInfo` for every user who decides to start unstakin
 
 ```solidity
 user.amount = 0;
-        user.unbonding = UnbondInfo({
-        amount : user.amount,
-        release : block.timestamp + unbondTime
-        });
+user.unbonding = UnbondInfo({
+amount : user.amount,
+release : block.timestamp + unbondTime
+});
 ```
 
 ### Recommended Mitigation Steps
