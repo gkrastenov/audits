@@ -15,7 +15,7 @@ I am available for smart contract security consulting. Reach out to me on:
 
 | ID | Protocol           | Date       | Type                | Findings             | Report      |
 |:-- | :----------------- | :---------:| :-----------------: | :------------------: | :---------: |
-| 7 | [GameSwift](https://twitter.com/GameSwift_io)        |  December 2023  |  Staking          |  1 High, 3 Medium     | Soon   |
+| 7 | [GameSwift](https://twitter.com/GameSwift_io)        |  December 2023  |  Staking          |  1 High, 3 Medium     | [Finished](./solo/GameSwift-Security-Review-3.md)   |
 | 6 | RootedToken         |  August 2023  |  ERC20          |  2 High, 3 Medium     | [Finished](./solo/RootedToken-Security-Review.md)   |
 | 5 | [GameSwift](https://twitter.com/GameSwift_io)  |  August 2023  |  Fixed Staking & Vesting   |  5 Medium | [Finished](./solo/GameSwift-Security-Review-2.md)     |
 | 4 | [SpartaDex](https://twitter.com/Spartadex_io)        |  August 2023  |  Pre-Deploy Review  | 3 Critical, 1 High |[Finished](./solo/SpartaDex-Security-Review-2.md) |
