@@ -17,7 +17,7 @@ I am available for smart contract security consulting. Reach out to me on:
 3. [GameSwift - Airdrop & Staking](./solo/GameSwift-Security-Review.md)
 4. [SpartaDex - Pre-Deploy Review](./solo/SpartaDex-Security-Review-2.md)
 5. [GameSwift - Fixed Staking & Vesting](./solo/GameSwift-Security-Review-2.md)
-6. RootedToken - ERC20
+6. [RootedToken - ERC20](./solo/RootedToken-Security-Review.md)
 7. [GameSwift - Staking](./solo/GameSwift-Security-Review-3.md)
 8. Undisclosed - On-chain game quiz
 9. DYAD - Overcollateralized stablecoin
