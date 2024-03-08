@@ -10,26 +10,25 @@ I am available for smart contract security consulting. Reach out to me on:
 - Telegram - [@gkrastenov](https://t.me/gkrastenov)
 - Discord - [@gkrastenov](discordapp.com/users/830181816433377310)
 
+## ALL My Solo Audits
 
-## Solo Audits
-
-| ID | Protocol           | Date       | Type                | Findings             | Report      |
-|:-- | :----------------- | :---------:| :-----------------: | :------------------: | :---------: |
-| 7 | [GameSwift](https://twitter.com/GameSwift_io)        |  December 2023  |  Staking          |  1 High, 3 Medium     | [Finished](./solo/GameSwift-Security-Review-3.md)   |
-| 6 | RootedToken         |  August 2023  |  ERC20          |  2 High, 3 Medium     | [Finished](./solo/RootedToken-Security-Review.md)   |
-| 5 | [GameSwift](https://twitter.com/GameSwift_io)  |  August 2023  |  Fixed Staking & Vesting   |  5 Medium | [Finished](./solo/GameSwift-Security-Review-2.md)     |
-| 4 | [SpartaDex](https://twitter.com/Spartadex_io)        |  August 2023  |  Pre-Deploy Review  | 3 Critical, 1 High |[Finished](./solo/SpartaDex-Security-Review-2.md) |
-| 3 | [GameSwift](https://twitter.com/GameSwift_io)         |  July 2023 | Airdrop & Staking    |  2 Medium   | [Finished](./solo/GameSwift-Security-Review.md)          |
-| 2 | [SpartaDex](https://twitter.com/Spartadex_io)         |  June 2023 |  Staking, NFT & DEX  |  2 High, 6 Medium | [Finished](./solo/SpartaDex-Security-Review.md)   |
-| 1 | [SpartaDex](https://twitter.com/Spartadex_io)        |  May 2023  |  Airdrop & Vesting   |  11 High, 8 Medium       | Finished    |
+1. SpartaDex - Airdrop & Vesting
+2. [SpartaDex - Staking, NFT & DEX ](./solo/SpartaDex-Security-Review.md)
+3. [GameSwift - Airdrop & Staking](./solo/GameSwift-Security-Review.md)
+4. [SpartaDex - Pre-Deploy Review](./solo/SpartaDex-Security-Review-2.md)
+5. [GameSwift - Fixed Staking & Vesting](./solo/GameSwift-Security-Review-2.md)
+6. RootedToken - ERC20
+7. [GameSwift - Staking](./solo/GameSwift-Security-Review-3.md)
+8. Undisclosed - On-chain game quiz
+9. DYAD - Overcollateralized stablecoin
 
 ## Public Audit Contests
 
-| Contest | Description | &nbsp;&nbsp;&nbsp;Ranking&nbsp;&nbsp;&nbsp; | Platform  |
-| ------------------------------------ | ------------------------------------------------------------ | :-----------------------------------------: | :-------: |
-| [Ondo Finance](https://twitter.com/ondofinance) | Institutional-Grade Finance. On-Chain. For Everyone. |  🥈2 / 71            | Code4rena |
+| Contest                                         | Description                                          | &nbsp;&nbsp;&nbsp;Ranking&nbsp;&nbsp;&nbsp; | Platform  |
+| ----------------------------------------------- | ---------------------------------------------------- | :-----------------------------------------: | :-------: |
+| [Ondo Finance](https://twitter.com/ondofinance) | Institutional-Grade Finance. On-Chain. For Everyone. |                  🥈2 / 71                   | Code4rena |
 
 ## Stats
 
--  Over $20,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
--  Over 25 Critical/High severity vulnerabilities found.
+- Over $50,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
+- Over 50 Critical/High severity vulnerabilities found.
