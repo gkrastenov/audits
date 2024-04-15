@@ -22,6 +22,7 @@ I am available for smart contract security consulting. Reach out to me on:
 8. Undisclosed - On-chain game quiz
 9. DYAD - Overcollateralized stablecoin
 10. Alaska Gold Rush - Cross-chain ERC20 token
+11. Undisclosed - ERC721 & ERC20
 
 ## Public Audit Contests
 
