@@ -22,8 +22,9 @@ I am available for smart contract security consulting. Reach out to me on:
 8. Undisclosed - On-chain game quiz
 9. DYAD - Overcollateralized stablecoin
 10. Alaska Gold Rush - Cross-chain ERC20 token
-11. Undisclosed - ERC721 & ERC20
-12. Undisclosed - AAVE, ERC4626, Yield Farming
+11. [DN404 - ERC721 & ERC20](https://github.com/Vectorized/dn404/blob/main/audits/guardian-audits-report.pdf)
+12. Yield.Meme - AAVE, ERC4626, Yield Farming
+13. Undisclosed
 
 ## Public Audit Contests
 
