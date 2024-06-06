@@ -26,7 +26,7 @@ I am available for smart contract security consulting. Reach out to me on:
 12. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YielMeme-Security-Review.pdf)
 13. Paytr
 14. Cookie3 - Airdrop & Swapper
-15. Undisclosed - NFT Staking
+15. LO-FI PEPE - NFT & Staking
 
 ## Public Audit Contests
 
