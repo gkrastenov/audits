@@ -27,6 +27,8 @@ I am available for smart contract security consulting. Reach out to me on:
 13. Paytr
 14. Cookie3 - Airdrop & Swapper
 15. LO-FI PEPE - NFT & Staking
+16. Undisclosed
+17. Undisclosed
 
 ## Public Audit Contests
 
