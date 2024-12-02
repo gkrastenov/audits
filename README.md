@@ -27,9 +27,12 @@ I am available for smart contract security consulting. Reach out to me on:
 13. Paytr
 14. [Cookie3 - Airdrop & Swapper](./solo/Cookie3-Security-Review.pdf)
 15. LO-FI PEPE - NFT & Staking
-16. Undisclosed
+16. GamblingDAO - GameFI
 17. [DayHub - Auction](./solo/DayHub-FairLaunch-Security-Review.pdf)
-18. Undisclosed
+18. Ai Agent Layer
+19. Cookie3 - Farming & Airdrop
+20. Undisclosed
+21. Undisclosed
 
 ## Public Audit Contests
 
