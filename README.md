@@ -31,8 +31,11 @@ I am available for smart contract security consulting. Reach out to me on:
 17. [DayHub - Auction](./solo/DayHub-FairLaunch-Security-Review.pdf)
 18. Ai Agent Layer
 19. Cookie3 - Farming & Airdrop
-20. Undisclosed
-21. Undisclosed
+20. GameSwift - Staking
+21. Cookie3 - Lock contracts
+22. P2PSwap - Token Swapper
+23. Undisclosed
+24. Undisclosed
 
 ## Public Audit Contests
 
