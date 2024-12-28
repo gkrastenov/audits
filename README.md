@@ -26,7 +26,7 @@ I am available for smart contract security consulting. Reach out to me on:
 12. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YieldMeme-Security-Review.pdf)
 13. Paytr
 14. [Cookie3 - Airdrop & Swapper](./solo/Cookie3-Security-Review.pdf)
-15. LO-FI PEPE - NFT & Staking
+15. [LO-FI PEPE - NFT & Staking](./solo/Lo-Fi-Pepe-NFT-Security-Review.pdf)
 16. GamblingDAO - GameFI
 17. [DayHub - FairLaunch](./solo/DayHub-FairLaunch-Security-Review.pdf)
 18. Ai Agent Layer
