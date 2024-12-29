@@ -33,9 +33,10 @@ I am available for smart contract security consulting. Reach out to me on:
 19. Cookie3 - Farming & Airdrop
 20. GameSwift - Staking
 21. Cookie3 - Lock contracts
-22. P2PSwap - Token Swapper
-23. Undisclosed
+22. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
+23. Launchpool
 24. Undisclosed
+25. Undisclosed
 
 ## Public Audit Contests
 
