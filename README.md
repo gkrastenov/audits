@@ -12,31 +12,31 @@ I am available for smart contract security consulting. Reach out to me on:
 
 ## ALL My Solo Audits
 
-1. SpartaDex - Airdrop & Vesting
-2. [SpartaDex - Staking, NFT & DEX ](./solo/SpartaDex-Security-Review.md)
-3. [GameSwift - Airdrop & Staking](./solo/GameSwift-Security-Review.md)
-4. [SpartaDex - Pre-Deploy Review](./solo/SpartaDex-Security-Review-2.md)
-5. [StarHeroes - Fixed Staking & Vesting](./solo/StarHeroes-Security-Review.md)
-6. [RootedToken - ERC20](./solo/RootedToken-Security-Review.md)
-7. [GameSwift - Staking](./solo/GameSwift-Security-Review-3.md)
-8. Undisclosed - On-chain game quiz
-9. [DYAD - Overcollateralized stablecoin](./solo/DYAD-Security-Review.pdf)
-10. Alaska Gold Rush - Cross-chain ERC20 token
-11. [DN404 - ERC721 & ERC20](https://github.com/Vectorized/dn404/blob/main/audits/guardian-audits-report.pdf)
-12. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YieldMeme-Security-Review.pdf)
-13. Paytr
-14. [Cookie3 - Airdrop & Swapper](./solo/Cookie3-Security-Review.pdf)
-15. [LO-FI PEPE - NFT & Staking](./solo/Lo-Fi-Pepe-NFT-Security-Review.pdf)
-16. GamblingDAO - GameFI
-17. [DayHub - FairLaunch](./solo/DayHub-FairLaunch-Security-Review.pdf)
-18. Ai Agent Layer
-19. Cookie3 - Farming & Airdrop
-20. GameSwift - Staking
-21. Cookie3 - Lock contracts
-22. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
-23. Launchpool
 24. Undisclosed
 25. Undisclosed
+26. Launchpool
+27. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
+28. Cookie3 - Lock contracts
+29. GameSwift - Staking
+30. Cookie3 - Farming & Airdrop
+31. Ai Agent Layer
+32. [DayHub - FairLaunch](./solo/DayHub-FairLaunch-Security-Review.pdf)
+33. [GamblingDAO - GameFi](./solo/GamblingDAO-Security-Review.pdf)
+34. [LO-FI PEPE - NFT & Staking](./solo/Lo-Fi-Pepe-NFT-Security-Review.pdf)
+35. [Cookie3 - Airdrop & Swapper](./solo/Cookie3-Security-Review.pdf)
+36. Paytr
+37. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YieldMeme-Security-Review.pdf)
+38. [DN404 - ERC721 & ERC20](https://github.com/Vectorized/dn404/blob/main/audits/guardian-audits-report.pdf)
+39. Alaska Gold Rush - Cross-chain ERC20 token
+40. [DYAD - Overcollateralized stablecoin](./solo/DYAD-Security-Review.pdf)
+41. Undisclosed - On-chain game quiz
+42. [GameSwift - Staking](./solo/GameSwift-Security-Review-3.md)
+43. [RootedToken - ERC20](./solo/RootedToken-Security-Review.md)
+44. [StarHeroes - Fixed Staking & Vesting](./solo/StarHeroes-Security-Review.md)
+45. [SpartaDex - Pre-Deploy Review](./solo/SpartaDex-Security-Review-2.md)
+46. [GameSwift - Airdrop & Staking](./solo/GameSwift-Security-Review.md)
+47. [SpartaDex - Staking, NFT & DEX ](./solo/SpartaDex-Security-Review.md)
+48. SpartaDex - Airdrop & Vesting
 
 ## Public Audit Contests
 
