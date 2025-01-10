@@ -16,7 +16,7 @@ I am available for smart contract security consulting. Reach out to me on:
 2. Undisclosed
 3. Launchpool
 4. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
-5. Cookie3 - Lock contracts
+5. [Cookie3 - Lock contracts](./solo/Cookie3-Lock-Security-Review.pdf)
 6. GameSwift - Staking
 7. Cookie3 - Farming & Airdrop
 8. Ai Agent Layer
