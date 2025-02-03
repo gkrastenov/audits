@@ -16,7 +16,7 @@ I am available for smart contract security consulting. Reach out to me on:
 2. Undisclosed
 3. HoneyFun - AI Agents
 4. MetisForge - Meme Generator
-5. Cookie3 - OTP Token
+5. Cookie3 - OFT Token
 6. [HoneyFun Stickers- NFTs](./solo/HoneyFunStickers-Security-Review.pdf)
 7. Launchpool - Staking
 8. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
