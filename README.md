@@ -21,7 +21,7 @@ I am available for smart contract security consulting. Reach out to me on:
 7. Launchpool - Staking
 8. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
 9. [Cookie3 - Lock contracts](./solo/Cookie3-Lock-Security-Review.pdf)
-10. Cookie3 - Farming & Airdrop
+10. [Cookie3 - Farming & Airdrop](./solo/Cookie3-Farming-Security-Review.pdf)
 11. [AI Agent Layer - AI Agents launching platform](./solo/AI-Agents-Layer-Security-Review.pdf)
 12. [DayHub - FairLaunch](./solo/DayHub-FairLaunch-Security-Review.pdf)
 13. [GamblingDAO - GameFi](./solo/GamblingDAO-Security-Review.pdf)
