@@ -18,7 +18,7 @@ I am available for smart contract security consulting. Reach out to me on:
 4. [MetisForge - Meme Generator](./solo/MetisForge-Security-Review.pdf)
 5. Cookie3 - OFT Token
 6. [HoneyFun Stickers- NFTs](./solo/HoneyFunStickers-Security-Review.pdf)
-7. Launchpool - Staking
+7. [GameSwift Launchpool - Staking](./solo/GameSwift-Launchpool-Security-Review.pdf)
 8. [P2PSwap - Token Swapper](./solo/P2PSwap-Security-Review.pdf)
 9. [Cookie3 - Lock contracts](./solo/Cookie3-Lock-Security-Review.pdf)
 10. [Cookie3 - Farming & Airdrop](./solo/Cookie3-Farming-Security-Review.pdf)
