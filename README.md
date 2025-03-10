@@ -17,7 +17,7 @@ For security audit inquiries, you can reach out to us on:
 3. Undisclosed
 4. [HoneyFun - Tokenomics v2](./solo/HoneyFun-Tokenomics-V2-Security-Review.pdf)
 5. [HoneyFun - Tokenomics](./solo/HoneyFun-Tokenomics-Security-Review.pdf)
-6. GameSwift - Staking & Vesting
+6. [GameSwift - Staking & Vesting](./solo/GameSwift-Vesting-Security-Review.pdf)
 7. [HoneyFun - Berachain AI Agents](./solo/HoneyFun-Security-Review.pdf)
 8. [MetisForge - Meme Generator](./solo/MetisForge-Security-Review.pdf)
 9. Cookie3 - OFT Token
