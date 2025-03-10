@@ -1,21 +1,21 @@
-# Gkrastenov's smart contract security reviews
+# KeySecurity 's smart contract security reviews
 
-This repository represents my portfolio of smart contract security work.
+KeySecurity is a new, innovative Web3 security company that hires top-talented security researchers for your project. We have conducted over 35+ security reviews for various projects, collectively holding over $300,000,000 in TVL.
 
 ## Contacts
 
-I am available for smart contract security consulting. Reach out to me on:
+For security audit inquiries, you can reach out to us on:
 
 - Twitter - [@gkrastenov](https://twitter.com/gkrastenov)
 - Telegram - [@gkrastenov](https://t.me/gkrastenov)
 - Discord - [@gkrastenov](discordapp.com/users/830181816433377310)
 
-## ALL My Solo Audits
+## Portfolio
 
 1. Undisclosed
 2. Undisclosed
 3. Undisclosed
-4. HoneyFun - Tokenomics v2
+4. [HoneyFun - Tokenomics v2](./solo/HoneyFun-Tokenomics-V2-Security-Review.pdf)
 5. [HoneyFun - Tokenomics](./solo/HoneyFun-Tokenomics-Security-Review.pdf)
 6. GameSwift - Staking & Vesting
 7. [HoneyFun - Berachain AI Agents](./solo/HoneyFun-Security-Review.pdf)
@@ -45,13 +45,7 @@ I am available for smart contract security consulting. Reach out to me on:
 31. [SpartaDex - Staking, NFT & DEX ](./solo/SpartaDex-Security-Review.md)
 32. SpartaDex - Airdrop & Vesting
 
-## Public Audit Contests
-
-| Contest                                         | Description                                          | &nbsp;&nbsp;&nbsp;Ranking&nbsp;&nbsp;&nbsp; | Platform  |
-| ----------------------------------------------- | ---------------------------------------------------- | :-----------------------------------------: | :-------: |
-| [Ondo Finance](https://twitter.com/ondofinance) | Institutional-Grade Finance. On-Chain. For Everyone. |                  🥈2 / 71                   | Code4rena |
-
 ## Stats
 
-- Over $100,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
-- Over 50 Critical/High severity vulnerabilities found.
+- Over $300,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
+- Over 100 Critical/High severity vulnerabilities found.
