@@ -31,7 +31,7 @@ For security audit inquiries, you can reach out to us on:
 17. [GamblingDAO - GameFi](./solo/GamblingDAO-Security-Review.pdf)
 18. [LO-FI PEPE - NFT & Staking](./solo/Lo-Fi-Pepe-NFT-Security-Review.pdf)
 19. [Cookie3 - Airdrop & Swapper](./solo/Cookie3-Security-Review.pdf)
-20. Paytr
+20. [Paytr - Early Invoice Payments](./solo/Paytr-Protocol-Security-Review.pdf)
 21. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YieldMeme-Security-Review.pdf)
 22. [DN404 - ERC721 & ERC20](https://github.com/Vectorized/dn404/blob/main/audits/guardian-audits-report.pdf)
 23. Alaska Gold Rush - Cross-chain ERC20 token
