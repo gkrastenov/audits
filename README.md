@@ -34,7 +34,7 @@ For security audit inquiries, you can reach out to us on:
 20. [Paytr - Early Invoice Payments](./solo/Paytr-Protocol-Security-Review.pdf)
 21. [Yield.Meme - AAVE, ERC4626 & Yield Farming](./solo/YieldMeme-Security-Review.pdf)
 22. [DN404 - ERC721 & ERC20](https://github.com/Vectorized/dn404/blob/main/audits/guardian-audits-report.pdf)
-23. Alaska Gold Rush - Cross-chain ERC20 token
+23. [Alaska Gold Rush - Cross-chain ERC20 token](./solo/Alaska-Gold-Rush-Security-Review.pdf)
 24. [DYAD - Overcollateralized stablecoin](./solo/DYAD-Security-Review.pdf)
 25. Undisclosed - On-chain game quiz
 26. [GameSwift - Staking](./solo/GameSwift-Security-Review-3.md)
