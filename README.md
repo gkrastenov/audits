@@ -16,7 +16,7 @@ For security audit inquiries, you can reach out to us on:
 2. StarHeroes - Staking
 3. [DayHub - Funded Trading Platform, ERC-2535](./solo/Dayhub-Platfrom-Security-Review-Report.pdf)
 4. Stargate Finance
-5. Cookie3 - Community gated Leaderboard
+5. [Cookie3 - Community gated Leaderboard](./solo/Cookie3-Community-Gated-Leaderboards-Security-Review.pdf)
 6. StarHeroes - Multiple launchpool
 7. GameSwift Launchpool v2 - Vesting, Staking & Integration with UniswapV2/V3
 8. GameSwift - Staking
