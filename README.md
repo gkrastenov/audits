@@ -18,7 +18,7 @@ For security audit inquiries, you can reach out to us on:
 4. Stargate Finance - Timelock system
 5. [Cookie3 - Community gated Leaderboard](./solo/Cookie3-Community-Gated-Leaderboards-Security-Review.pdf)
 6. StarHeroes Launchpool v2.1
-7. [StarHeroes Launchpool v2 - Vesting, Staking & Integration with UniswapV2/V3](./solo/StarHeroes-Launchpool-Security-Review)
+7. [StarHeroes Launchpool v2 - Vesting, Staking & Integration with UniswapV2/V3](./solo/StarHeroes-Launchpool-Security-Review.pdf)
 8. [GameSwift - Staking](./solo/GameSwift-Staking-Security-Review)
 9. [HoneyFun - ERC20](./solo/HoneyFun-Meme-Contract-Security-Review.pdf)
 10. [HoneyFun - Tokenomics v2](./solo/HoneyFun-Tokenomics-V2-Security-Review.pdf)
