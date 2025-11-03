@@ -19,7 +19,7 @@ For security audit inquiries, you can reach out to us on:
 5. [Cookie3 - Community gated Leaderboard](./solo/Cookie3-Community-Gated-Leaderboards-Security-Review.pdf)
 6. StarHeroes - Multiple launchpool
 7. GameSwift Launchpool v2 - Vesting, Staking & Integration with UniswapV2/V3
-8. GameSwift - Staking
+8. [GameSwift - Staking](./solo/GameSwift-Staking-Security-Review)
 9. [HoneyFun - ERC20](./solo/HoneyFun-Meme-Contract-Security-Review.pdf)
 10. [HoneyFun - Tokenomics v2](./solo/HoneyFun-Tokenomics-V2-Security-Review.pdf)
 11. [HoneyFun - Tokenomics](./solo/HoneyFun-Tokenomics-Security-Review.pdf)
