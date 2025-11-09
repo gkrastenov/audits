@@ -51,6 +51,15 @@ For security audit inquiries, you can reach out to us on:
 37. [SpartaDex - Staking, NFT & DEX ](./solo/SpartaDex-Security-Review.md)
 38. SpartaDex - Airdrop & Vesting
 
+# Public Audit Contests
+
+My most notable competitive audit results:
+
+| Protocol      | Rank | Description                                                                                                                                                                                  |
+| ------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aegis.im YUSD | 🥈 2 | [Bitcoin-backed, delta-neutral stablecoin with real-time transparency, built-in funding-rate yield, and zero reliance on the fiat banking system.](https://audits.sherlock.xyz/contests/799) |
+| Ondo Finance  | 🥈 2 | [Institutional-Grade Finance. On-Chain. For Everyone.](https://code4rena.com/reports/2023-09-ondo)                                                                                           |
+
 ## Stats
 
 - Over $300,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
