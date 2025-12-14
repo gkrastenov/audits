@@ -12,7 +12,7 @@ For security audit inquiries, you can reach out to us on:
 
 ## KeySecurity Portfolio
 
-1. NOKS AI - OKX Fork
+1. [NOKS AI - OKX Fork](./solo/NOKS-AI-Security-Review.pdf)
 2. StarHeroes - Staking
 3. [DayHub - Funded Trading Platform, ERC-2535](./solo/Dayhub-Platfrom-Security-Review-Report.pdf)
 4. Stargate Finance - Timelock system
