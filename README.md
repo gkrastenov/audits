@@ -1,7 +1,3 @@
-# KeySecurity 's smart contract security reviews
-
-KeySecurity is a new, innovative Web3 security company that hires top-talented security researchers for your project. We have conducted over 40+ security reviews for various projects, collectively holding over $300,000,000 in TVL.
-
 ## Contacts
 
 For security audit inquiries, you can reach out to us on:
@@ -62,5 +58,5 @@ My most notable competitive audit results:
 
 ## Stats
 
-- Over $300,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
+- Over $1,000,000,000 of TVL is held by the contracts that have been audited by gkrastenov.
 - Over 100 Critical/High severity vulnerabilities found.
