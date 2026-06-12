@@ -6,7 +6,7 @@ For security audit inquiries, you can reach out to us on:
 - Telegram - [@gkrastenov](https://t.me/gkrastenov)
 - Discord - [@gkrastenov](discordapp.com/users/830181816433377310)
 
-## KeySecurity Portfolio
+## Georgi Krastenov Portfolio
 
 1. [NOKS AI - OKX Fork](./solo/NOKS-AI-Security-Review.pdf)
 2. StarHeroes - Staking
